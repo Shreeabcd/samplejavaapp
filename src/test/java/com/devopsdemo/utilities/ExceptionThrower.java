@@ -12,11 +12,12 @@ public class ExceptionThrower {
         public void getCounter() { 
                 int i = 1/0; // this will throw the error...
                 LOG.info(""+i);
+                 System.out.println("COUNTER");
         }
         
         public void doNothing() throws IOException {
                 throw new IOException("TESTIOEXCEPTION"); 
-                System.out.println("TESTIOEXCEPTION");
+               
         }
         
         private void doXXX() { 

@@ -12,7 +12,7 @@ public class ExceptionThrower {
         public void getCounter() { 
                 int i = 1/0; // this will throw the error...
                 LOG.info(""+i);
-                 System.out.println("COUNTER");
+                 System.out.println("COUNTER FILE");
         }
         
         public void doNothing() throws IOException {

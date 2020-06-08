@@ -16,6 +16,7 @@ public class ExceptionThrower {
         
         public void doNothing() throws IOException {
                 throw new IOException("TESTIOEXCEPTION"); 
+                System.out.println("TESTIOEXCEPTION");
         }
         
         private void doXXX() { 
